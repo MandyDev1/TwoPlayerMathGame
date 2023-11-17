@@ -1,3 +1,4 @@
-require_relative 'player'
-require_relative 'question'
-require_relative 'game'
+require_relative 'Game'
+
+game = Game.new
+game.play
